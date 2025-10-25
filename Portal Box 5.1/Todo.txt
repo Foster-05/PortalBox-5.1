@@ -1,0 +1,14 @@
+-ask matt about current sensor ground pad solid vs thermal relief, one pad relief and ths solid X
+	-solid shouldn't matter, run a trace out if necessary or via in pad
+-fillet edges X
+-change pin assignments for buzzer (usb) and current sensor (adc) X
+-cross reference board uart/rtc/usb X
+	-I feel good about spi assignments for FastSPI, make sure CS can be anywhere
+-investigate rfid reset issue X
+- stitching vias
+	-plugin?
+- fix ribbon cable routing, return currents on spi X
+-Finish assigning pin X 
+
+-silkscreening
+
