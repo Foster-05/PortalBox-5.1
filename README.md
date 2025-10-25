@@ -1,2 +1,4 @@
-# PortalBox-5.1
-Deployment repository for final revision of v5 Portalbox
+# Portal Box 5.1.0
+## A project by Bucknellians for Bucknellians, since 2013
+
+
