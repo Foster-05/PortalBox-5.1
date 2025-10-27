@@ -1,11 +1,8 @@
 # Portal Box 5.1.0
 ## A project by Bucknellians for Bucknellians, since 2013
-<img alt="Static Badge" src="https://img.shields.io/badge/Program-KiCad?style=flat&logo=kicad&logoSize=auto&color=blue&link=kicad.org">
-<img alt="Static Badge" src="https://img.shields.io/badge/Platform-ESP32?style=flat&logo=espressif&color=gray&link=https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#hardware-reference">
-<img alt="Static Badge" src="https://img.shields.io/badge/Firmware-MicroPython?style=flat&logo=python&logoSize=auto&color=yellow">
-<img alt="Static Badge" src="https://img.shields.io/badge/Status-Complete-green?style=flat">
+<img alt="Static Badge" src="https://img.shields.io/badge/Program-KiCad?style=flat&logo=kicad&logoSize=auto&color=blue&link=kicad.org"> <img alt="Static Badge" src="https://img.shields.io/badge/Platform-ESP32?style=flat&logo=espressif&color=gray&link=https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#hardware-reference"> <img alt="Static Badge" src="https://img.shields.io/badge/Firmware-MicroPython?style=flat&logo=python&logoSize=auto&color=yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/Status-Complete-green?style=flat">
 
-<img src="portal2.jpg" alt="Current Portalbox implementation in the Maker-E" width="450"/>
+<img src="portal2.jpg" alt="Current Portalbox implementation in the Maker-E" width="350"/>
 <img src="portalhands.png" alt="v5.0.6 while in progress" height="313"/>
 
 *The currently implemented Portalbox, v2, in the Maker-E connected to a Prusa XL (left) and a v5.0.6 prototype (right).*
@@ -19,17 +16,17 @@ The Portalbox has been an ongoing project for roughly a decade, remaining open-s
 <summary>Technical information</summary>
 
 ## Technical
-<img src="portalpcb.png" alt="Current Portalbox implementation in the Maker-E" width="525"/>
-<img src="portalschm.png" alt="Current Portalbox implementation in the Maker-E" height="330"/>
+<img src="img/portalpcb.png" alt="Current Portalbox implementation in the Maker-E" width="400"/>
+<img src="img/portalschm.png" alt="Current Portalbox implementation in the Maker-E" height="330"/>
 
 *Portalbox v5.1.0 layout (left) and schematic (right)*
 
 <details>
 <summary>Power Interlock</summary>
 
-![](pwoer.png "Schematic view of AC Power section for v5.1.0")
+![](img/pwoer.png "Schematic view of AC Power section for v5.1.0")
 ### Overview
-The Portalbox itself is powered off of 120Vrms from the wall, allowing for simpler placement and no worries or frustrations regarding battery power, lifetime, and so on. We use a hefty AC/DC converted to provide 5v power to the rest of the Portalbox, including the ESP32. We use relays to interlock wall power in between our two ports, one IEC C13 and one IEC C14. The female C13 is intended to be connected to wall power, while the male C14 is 15A fused output to makerspace equipment. We also include a current measurement IC to monitor power draw from a machine and monitor relay accuracy.
+The Portalbox itself is powered off of 120Vrms from the wall, allowing for simpler placement and no worries or frustrations regarding battery power, lifetime, and so on. We use a hefty AC/DC converted to provide 5v power to the rest of the Portalbox, including the ESP32. We use relays to interlock wall power in between our two ports, one IEC C13 and one IEC C14. The female C13 is intended to be connected to wall power, while the male C14 is 15A fused output to makerspace equipment. We also include a current measurement IC to monitor power draw from a machine and monitor relay accuracy. Ensure that only 2 ounce copper is used when manufacturing: trace widths have been calculated to 2oz and traces may turn into fuses if incorrectly manufactured.
 ### Relay
 We chose a [CUI Devices 20A relay](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PR28-5V-360-1A-E/22522201?s=N4IgTCBcDa5mBmAtABwE5gBxIKwDckEA2ABiQEYBDJAUyQDsATEAXQF8g "Digikey") to ensure that our fuse would disconnect the circuit before any parts become damaged. The relay accepts the hot line from the wall and outputs it to the current measurement IC when the relay is activated. Activation is done using a simple [NMOS transistor](https://www.digikey.com/en/products/detail/diodes-incorporated/2N7002K-7/1934378?s=N4IgTCBcDa4HIHYAMSwGkC0CAiBJAwgCoZzYgC6AvkA "Digikey") circuit to allow for a 3v GPIO pin from the ESP32 to activate the relay using 5v (its required activation voltage). This specific transistor was chosen for availability, being pre-stocked in our space.
 
@@ -40,7 +37,7 @@ We're measuring current flowing from the wall out to the C14 port for a multitud
 <details>
 <summary>USB Interlock</summary>
 
-![](usb.png "Schematic view of USB interlock section for v5.1.0")
+![](img/usb.png "Schematic view of USB interlock section for v5.1.0")
 ### Overview
 The Portalbox is equipped to provide data interlock through USB 2.0 between a USB-A port and a USB-C port. This is for specific applications such as the Maker-E's laser cutter, where proprietary power supply makes power interlock difficult. However, one is able to connect USB cables in between the cutter and a dedicated device to restrict data transfer of files required for laser cutting. It uses a similar relay structure to the power interlock to allow for robust switching.
 
@@ -54,13 +51,13 @@ We use typical four-pin USB-A 2.0 ports as well as USB-C ports capable of 3.0 on
 <details>
 <summary>Peripherals and GPIO</summary>
 
-![](gpio.png "Schematic view of GPIO section for v5.1.0")
+![](img/gpio.png "Schematic view of GPIO section for v5.1.0")
 </details>
 
 <details>
 <summary>Microcontroller</summary>
 
-![](esp.png "Schematic view of MCU section for v5.1.0")
+![](img/esp.png "Schematic view of MCU section for v5.1.0")
 </details>
 
 <details>
