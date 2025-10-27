@@ -3,7 +3,7 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Program-KiCad?style=flat&logo=kicad&logoSize=auto&color=blue&link=kicad.org"> <img alt="Static Badge" src="https://img.shields.io/badge/Platform-ESP32?style=flat&logo=espressif&color=gray&link=https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#hardware-reference"> <img alt="Static Badge" src="https://img.shields.io/badge/Firmware-MicroPython?style=flat&logo=python&logoSize=auto&color=yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/Status-Complete-green?style=flat">
 
 <img src="img/portal2.jpg" alt="Current Portalbox implementation in the Maker-E" width="350"/>
-<img src="img/portalhands.png" alt="v5.0.6 while in progress" height="313"/>
+<img src="img/portalhands.png" alt="v5.0.6 while in progress" height="250"/>
 
 *The currently implemented Portalbox, v2, in the Maker-E connected to a Prusa XL (left) and a v5.0.6 prototype (right).*
 
