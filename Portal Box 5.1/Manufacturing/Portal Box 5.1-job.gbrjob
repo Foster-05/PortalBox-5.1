@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.1"
+      "Version": "9.0.3-9.0.3-0~ubuntu24.04.1"
     },
-    "CreationDate": "2025-10-25T19:21:56-04:00"
+    "CreationDate": "2025-10-28T12:02:47-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Portal Box 5-F_Cu.gbr",
+      "Path": "Portal Box 5.1-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Portal Box 5-B_Cu.gbr",
+      "Path": "Portal Box 5.1-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Portal Box 5-F_Paste.gbr",
+      "Path": "Portal Box 5.1-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Portal Box 5-B_Paste.gbr",
+      "Path": "Portal Box 5.1-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Portal Box 5-F_Silkscreen.gbr",
+      "Path": "Portal Box 5.1-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Portal Box 5-B_Silkscreen.gbr",
+      "Path": "Portal Box 5.1-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Portal Box 5-F_Mask.gbr",
+      "Path": "Portal Box 5.1-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Portal Box 5-B_Mask.gbr",
+      "Path": "Portal Box 5.1-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Portal Box 5-Edge_Cuts.gbr",
+      "Path": "Portal Box 5.1-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

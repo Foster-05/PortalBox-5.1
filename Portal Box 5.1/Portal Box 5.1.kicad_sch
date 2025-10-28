@@ -8970,6 +8970,19 @@
 		)
 		(uuid "6b8faf3e-181b-4c09-9249-fcd9590d4b46")
 	)
+	(text "*2oz copper only!*"
+		(exclude_from_sim no)
+		(at 269.494 220.726 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.27)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "9ed7e3a4-dda4-40b0-bc5e-3b9c7e449e94")
+	)
 	(text "LEDS\n"
 		(exclude_from_sim no)
 		(at 14.478 241.554 0)
