@@ -3,7 +3,7 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Program-KiCad?style=flat&logo=kicad&logoSize=auto&color=blue&link=kicad.org"> <img alt="Static Badge" src="https://img.shields.io/badge/Platform-ESP32?style=flat&logo=espressif&color=gray&link=https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#hardware-reference"> <img alt="Static Badge" src="https://img.shields.io/badge/Firmware-MicroPython?style=flat&logo=python&logoSize=auto&color=yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/Status-Complete-green?style=flat">
 
 
-<img src="img/portal2.jpg" alt="Current Portalbox implementation in the Maker-E" width="350"/> <img src="img/portalhands.png" alt="v5.0.6 while in progress" height="300"/>
+<img src="img/portal2.jpg" alt="Current Portalbox implementation in the Maker-E" width="400"/> <img src="img/portalhands.png" alt="v5.0.6 while in progress" height="275"/>
 
 *The currently implemented Portalbox, v2, in the Maker-E connected to a Prusa XL (left) and a v5.0.6 prototype (right).*
 
@@ -16,8 +16,8 @@ The Portalbox has been an ongoing project for roughly a decade, remaining open-s
 <summary>Technical information</summary>
 
 ## Technical
-<img src="img/portalpcb.png" alt="Current Portalbox implementation in the Maker-E" width="400"/>
-<img src="img/portalschm.png" alt="Current Portalbox implementation in the Maker-E" height="330"/>
+<img src="img/portalpcb.png" alt="Current Portalbox implementation in the Maker-E" width="425"/>
+<img src="img/portalschm.png" alt="Current Portalbox implementation in the Maker-E" height="315"/>
 
 *Portalbox v5.1.0 layout (left) and schematic (right)*
 
@@ -58,6 +58,9 @@ We use typical four-pin USB-A 2.0 ports as well as USB-C ports capable of 3.0 on
 <summary>Microcontroller</summary>
 
 ![](img/esp.png "Schematic view of MCU section for v5.1.0")
+### History
+![](img/MCUs.jpg "Historical and current MCUs")
+Historically, the Portalbox has been through 
 </details>
 
 <details>
