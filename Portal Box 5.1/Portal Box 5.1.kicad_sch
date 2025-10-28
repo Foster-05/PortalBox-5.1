@@ -14404,7 +14404,7 @@
 				)
 			)
 		)
-		(property "Value" "PX0675/PC"
+		(property "Value" "708-1351-ND"
 			(at 22.86 57.404 0)
 			(effects
 				(font
@@ -16247,7 +16247,7 @@
 				)
 			)
 		)
-		(property "Value" "BUTTON"
+		(property "Value" "141-TL3336AF160QCT-ND"
 			(at 166.37 33.528 0)
 			(effects
 				(font
@@ -17152,7 +17152,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d126ed9-661c-472c-84d9-55880b78e88f")
 		(property "Reference" "J2"
 			(at 26.67 135.89 0)
@@ -17162,8 +17161,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_C"
-			(at 26.67 138.43 0)
+		(property "Value" "2073-USB4105-GF-ACT-ND"
+			(at 30.226 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17914,7 +17913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USBLC6-2P6"
+		(property "Value" "497-5026-1-ND"
 			(at 49.9111 167.64 0)
 			(effects
 				(font
@@ -18681,7 +18680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USBLC6-2P6"
+		(property "Value" "497-5026-1-ND"
 			(at 41.0211 113.03 0)
 			(effects
 				(font
@@ -19321,7 +19320,7 @@
 				)
 			)
 		)
-		(property "Value" "703W-00_53"
+		(property "Value" "Q219-ND"
 			(at 22.86 31.75 0)
 			(effects
 				(font
@@ -19400,7 +19399,7 @@
 				)
 			)
 		)
-		(property "Value" "TLE4971-A050T5-U-E0001"
+		(property "Value" "448-TLE4971A050T5UE0001XUMA1CT-ND"
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -20306,7 +20305,7 @@
 				)
 			)
 		)
-		(property "Value" "RACM06E-05SK_277"
+		(property "Value" "945-RACM06E-05SK/277-ND"
 			(at 99.06 81.28 0)
 			(effects
 				(font
@@ -20584,8 +20583,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6871XX149022_687118149022"
-			(at 217.678 30.988 90)
+		(property "Value" "732-6001-1-ND"
+			(at 196.342 31.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22071,10 +22070,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c655f021-1d06-42fc-8556-74e135bf974f")
 		(property "Reference" "BZ1"
-			(at 278.13 32.2648 90)
+			(at 271.526 27.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22082,8 +22080,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Buzzer"
-			(at 278.13 34.8048 90)
+		(property "Value" "668-AI-1223-TWT-5V-7-ND"
+			(at 263.652 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23842,7 +23840,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5891a92-70a0-41a7-8d34-d75419266393")
 		(property "Reference" "J1"
 			(at 21.59 104.14 0)
@@ -23852,8 +23849,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_A"
-			(at 21.59 106.68 0)
+		(property "Value" "609-87520-0010ALFCT-ND"
+			(at 29.464 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

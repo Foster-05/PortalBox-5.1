@@ -1,30 +1,30 @@
-Reference,Value,Qty,MakerStock?,Need for 10/25/25 run?
-A1,703W-00_53,1,N,N
-A2,PX0675/PC,1,N,N
-BZ1,Buzzer,1,N,Get back from Stewart >:(
-"C1,C2,C5,C6,C7,C8,C10,C11,C14,C15,C23",2.2uF,11,Y,N
-"C3,C4,C13,C19,C21",0.1uF,5,Y,N
-"C9,C12,C16,C17,C18,C20",10uF,6,Y,N
-C22,4.7uF,1,Y,N
-"D1,D2,D4,D5,D7,D8,D9,D10,D11,D12",APA102,10,N,N
-"D3,D16, D6",CFRM104-HF,3,Y,N
-"D13,D14,D15",LED,3,Y,N
-F1,Fuse,1,N,N
-J1,USB_A,1,N,Y
-J2,USB_C,1,N,N
-J3,A 14-LC-TT,1,N,N
-J4,6871XX149022_687118149022,1,N,Y
-J5,RFID-RC522,1,N,N
-K1,PR28-5V-360-1A-E,1,N,N
-K2,DIP05-2A72-21L,1,N,N
-PS1,RACM06E-05SK_277,1,N,Y
-"Q1,Q2",NTR5103NT1G,2,Y,N
-"R1,R2",5.1k,2,Y,N
-"R3,R4,R5,R10,R11",10k,5,Y,N
-"R6,R7,R8,R9",1k,4,Y,N
-SW1,RESET,1,N,N
-SW2,SW_DPST (BUTTON),1,N,Y? Closet? Not sure
-"U1,U2",USBLC6-2P6,2,N,Y
-U3,TLE4971-A050T5-U-E0001,1,N,Y
-U4,AP7363-33D-13,1,Y,N
-U5,ESP32-S3-DEVKITC-1-N8R8-OFFICIAL,1,N,N
+Reference,Value,Qty,MakerStock?,Need for 10/25/25 run?,Link
+A1,QUALTEK_703W-00_53,1,N,N,https://www.digikey.com/en/products/detail/qualtek/703W-00-53/245560
+A2,PX0675/PC,1,N,N,https://www.digikey.com/en/products/detail/bulgin/PX0675-PC/1980709
+BZ1,"Buzzer, XDCR_AI-1223-TWT-3V-2-R",1,N,Get back from Stewart >:(,https://www.digikey.com/en/products/detail/pui-audio-inc/ai-1223-twt-5v-7/21689820
+"C1,C2,C5,C6,C7,C8,C10,C11,C14,C15,C23",2.2uF,11,Y,N,
+"C3,C4,C13,C19,C21",0.1uF,5,Y,N,
+"C9,C12,C16,C17,C18,C20",10uF,6,Y,N,
+C22,4.7uF,1,Y,N,
+"D1,D2,D4,D5,D7,D8,D9,D10,D11,D12",APA102,10,N,N,
+"D3,D16, D6",CFRM104-HF,3,Y,N,
+"D13,D14,D15","LED, 732-13433-1-ND",3,Y,N,
+F1,Fuse,1,N,N,
+J1,"USB_A, AMPHENOL_87520-0010ALF",1,N,Y,https://www.digikey.com/en/products/detail/amphenol-cs-fci/87520-0010ALF/1552363?s=N4IgTCBcDaIAQEECyAFAEgUQHIHkAycAHAOwCsYADALQUUCMFCeAYiALoC%2BQA
+J2,"USB_C, GCT_USB4105-GF-A",1,N,N,https://www.digikey.com/en/products/detail/gct/USB4105-GF-A/11198441
+J3,A 14-LC-TT,1,N,N,
+J4,"Ribbon cable connector, 732-6001-1-ND",1,N,Y,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/687118149022/5047793?s=N4IgTCBcDaIOwGYwFoBsAGdBGZOByAIiALoC%2BQA
+J5,RFID-RC522,1,N,N,
+K1,PR28-5V-360-1A-E,1,N,N,
+K2,DIP05-2A72-21L,1,N,N,
+PS1,RACM06E-05SK_277,1,N,Y,https://www.digikey.com/en/products/detail/recom-power/RACM06E-05SK-277/21334017?s=N4IgTCBcDaIEoEEDCBZADANgKIFo0FYBlAaQAIwB2CkAXQF8g
+"Q1,Q2",NTR5103NT1G,2,Y,N,
+"R1,R2",5.1k,2,Y,N,
+"R3,R4,R5,R10,R11",10k,5,Y,N,
+"R6,R7,R8,R9",1k,4,Y,N,
+SW1,"RESET BUTTON, SW_TL3336AF160Q",1,N,N,https://www.digikey.com/en/products/detail/e-switch/TL3336AF160Q/14123602?s=N4IgTCBcDaICoBkDMKBsBBAYgRlQBgEUQBdAXyA
+SW2,"SW_DPST (BUTTON), adafruit 1440",1,Y,Y? Closet? Not sure,https://stock.maker.bucknell.edu/product/16mm-illuminated-pushbutton/
+"U1,U2",USBLC6-2P6,2,N,Y,https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2P6/1007440?s=N4IgTCBcDaIKoGUBCAZAwgNgLRgAoZAF0BfIA
+U3,TLE4971-A050T5-U-E0001,1,N,Y,https://www.digikey.com/en/products/detail/infineon-technologies/TLE4971A050T5UE0001XUMA1/18700354?s=N4IgTCBcDaICoBkCiAWAnAdgIwFoCCADAKwFxE4CqOSBtWIAugL5A
+U4,AP7363-33D-13,1,Y,N,
+U5,ESP32-S3-DEVKITC-1-N8R8-OFFICIAL,1,N,N,
