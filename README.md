@@ -59,8 +59,18 @@ We use typical four-pin USB-A 2.0 ports as well as USB-C ports capable of 3.0 on
 
 ![](img/esp.png "Schematic view of MCU section for v5.1.0")
 ### History
-![](img/MCUs.jpg "Historical and current MCUs")
-Historically, the Portalbox has been through 
+<img src="img/ESP.jpg" alt="Historical and current MCUs" width="400"/> <img src="img/previous.jpg" alt="Historical and current MCUs" width="400"/>
+
+
+Historically, the Portalbox has been through every microcontroller you can think of. An original iteration used RP2040 breakout boards to do all processing on the platform, and connected a Pi Zero W to it for WiFi and API calling capabilities. Some time after that, a Raspberry Pi 4 was used to accomplish both tasks on one platform - at this point the Portalbox was running a full Linux OS with some firmware stored on it that would run upon boot.
+
+During our time with the project, one of our main goals was to move platform to something that was smaller, less expensive, and more apt for the task. We chose to use the ESP32 platform, as it would still give us full internet capabilities while in a smaller form factor and with plenty of processing power to do the job. This turned our major limitation into GPIO.
+
+We deliberately chose to utilize a full devkit from Espressif instead of simply placing the chip on our board. This decision was made for a multitude of reasons, but chief among them was that it made our lives easier and will continue to be effective far into the future. Long story short, all of the onboard electronics already included allowed us to focus on development of our other systems instead of worrying about setting up JTAG and the like. It also allows us to simply replace an entire module if something fails in the future, meaning these boards will be able to be used far into the future by simply replacing components and preventing the trashing of an entire board due to an oversight or failure.
+
+Accordingly, we chose the Espressif devkit because they provide the most complete hardware output, as well as a fleshed out ESP-IDF toolchain for natively flashing boards if necessary. Specifically, the Espressif ESP32-S3-Devkit-C1 breaks out nearly all of the onboard GPIO so we can fit in all of our components that we need to and leave several pins for further expansion if we so desire. At different points we utilized ESP-IDF to flash our devkits with a custom build of Micropython.
+
+ESP32-C6, custom firmware
 </details>
 
 <details>
