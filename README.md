@@ -16,7 +16,7 @@ The Portalbox has been an ongoing project for roughly a decade, remaining open-s
 
 <summary> Previous Implementation </summary>
 
-##Current Implementation
+## Current Implementation
 
 <img src="img/portal2.jpg" alt="Current Portalbox implementation in the Maker-E" />
 
