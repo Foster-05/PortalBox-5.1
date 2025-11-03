@@ -23,6 +23,7 @@ The Portalbox has been an ongoing project for roughly a decade, remaining open-s
 As it stands, the Portalbox is in the MakerE and for the most part, working as intended. It includes a very simple I/O: A slot for an RFID card, a simple pushbutton, and on the back two power ports and a reset button. It utilizes a finite state machine design to work with RFID reader and button input to ascern what mode of functionality it should be in. As much of this functionality has been retained for the next iteration. 
 
 Use of the current Portalbox is very simple, intentionally so. Simply place your RFID card, programmed by a technician or makerspace administrator, into the card slot. The Portalbox will light blue if you are marked as certified in an SQL database, and red if you're not. If it determines that you are certified, it will activate the power interlock and allow wall power to flow to the machine that it's connected to, be it a 3D printer, laser cutter, or soldering iron. When you remove your card, the box will begin blinking yellow and beeping at you. Pressing the button on the front will exit this "grace mode". Putting your card back in will accomplish the same as putting your card in originally. However, if you place in a card programmed as a "proxy card", the box will light orange and remain on. The result is that you may use the machine or leave it running, but keep your assigned RFID card with you. Finally, if a user assigned as a trainer in the database takes their card out of the box, a non-certified user may place theirs as a replacement. The box will light purple for "training" mode, allowing the user to temporarily keep the equipment active while learning how to use it. After they have been trained on the piece of equipment a technician can certify them so they may use it in the future.
+
 </details>
 
 <details open>
@@ -107,8 +108,7 @@ At different points we utilized ESP-IDF to flash our devkits with a custom build
 
 <details>
 <summary>Certification Compliance</summary>
-
-
+The Portalbox has been designed to as closely as possible comply with IPC-2221 for General Design, and more specifically for IPC-2222 Rigid design specifications. Please make us aware of any discrepancies that may come up.
 </details>
 
 
