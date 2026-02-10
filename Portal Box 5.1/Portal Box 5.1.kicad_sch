@@ -7,7 +7,7 @@
 	(title_block
 		(title "PortalBox Project")
 		(date "2025-10-25")
-		(rev "V5.06")
+		(rev "V5.1.1")
 		(company "Bucknell University | Electrical and Computer Engineering ")
 		(comment 1 "Aiden Cherniske & Elisha Foster")
 	)
@@ -8943,6 +8943,16 @@
 			(justify left bottom)
 		)
 		(uuid "4caf5aed-eb5b-4637-9c3a-7bfe8887847c")
+	)
+	(text "Should these be Earth or DC ground?"
+		(exclude_from_sim no)
+		(at 112.776 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5aa3e0af-625c-467f-9607-80af280884f7")
 	)
 	(text "ESP32-C1"
 		(exclude_from_sim no)
