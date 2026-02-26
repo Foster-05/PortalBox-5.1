@@ -21606,7 +21606,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Bucknell University\nPortalbox v5.1.0\nEli Foster\nAiden Cherniske"
+	(gr_text "Bucknell University\nPortalbox v5.1.1\nEli Foster\nAiden Cherniske"
 		(at 109.825 78.45 0)
 		(layer "F.SilkS")
 		(uuid "5040695a-2ca6-41eb-95fa-94777fa1574f")
