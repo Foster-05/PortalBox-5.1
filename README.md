@@ -1,4 +1,4 @@
-# Portal Box 5.1.0
+# Portal Box 5.1.1
 ## A project by Bucknellians for Bucknellians, since 2013
 <img alt="Static Badge" src="https://img.shields.io/badge/Program-KiCad?style=flat&logo=kicad&logoSize=auto&color=blue&link=kicad.org"> <img alt="Static Badge" src="https://img.shields.io/badge/Platform-ESP32?style=flat&logo=espressif&color=gray&link=https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#hardware-reference"> <img alt="Static Badge" src="https://img.shields.io/badge/Firmware-MicroPython?style=flat&logo=python&logoSize=auto&color=yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/Status-Complete-green?style=flat">
 
