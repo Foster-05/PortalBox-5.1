@@ -8798,6 +8798,16 @@
 		)
 		(uuid 932fc890-721d-45e2-b33e-c1f9e3925ea9)
 	)
+	(text "Mem CS"
+		(exclude_from_sim no)
+		(at 203.2 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15acb7e4-c406-4d67-83cf-3271a1ea861b")
+	)
 	(text "5->3.3V Regulator Added\nTo run APA102 at 3.3V\n(Logic high = 0.7*VCC)"
 		(exclude_from_sim no)
 		(at 267.462 201.93 0)
@@ -8843,6 +8853,16 @@
 			(justify left bottom)
 		)
 		(uuid "5bcd9aa9-ba38-40f4-99a1-cde3c9f37367")
+	)
+	(text "SD CS"
+		(exclude_from_sim no)
+		(at 202.438 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d6aafc4-499d-4970-a7eb-8de5e221aac2")
 	)
 	(text "GPIO/PERIPHERALS"
 		(exclude_from_sim no)
@@ -9417,7 +9437,7 @@
 		(uuid "29937c40-3f83-464b-9981-1a327b3a6fc1")
 	)
 	(no_connect
-		(at 196.85 59.69)
+		(at 198.12 59.69)
 		(uuid "2b4dc06b-697c-4645-9ccd-de6b038cfe68")
 	)
 	(no_connect
@@ -9513,7 +9533,7 @@
 		(uuid "d4e914ef-8d0b-4904-8e5a-aef2cc37846b")
 	)
 	(no_connect
-		(at 196.85 57.15)
+		(at 198.12 57.15)
 		(uuid "d7e6c9f2-0343-4286-b850-c865196f7b34")
 	)
 	(no_connect
@@ -12708,28 +12728,6 @@
 			)
 		)
 	)
-	(global_label "MEM_CS"
-		(shape input)
-		(at 198.12 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d2490f4-97aa-4c02-825f-405a6afc8c27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6041 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USBC_D+"
 		(shape input)
 		(at 102.87 124.46 180)
@@ -14006,28 +14004,6 @@
 			)
 		)
 	)
-	(global_label "SD_CS"
-		(shape input)
-		(at 198.12 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "edd0b819-c365-4d1d-b8fe-05ccf06ad486")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.0318 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP3vo"
 		(shape input)
 		(at 120.65 58.42 0)
@@ -14323,6 +14299,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Label" "WALL OUT"
+			(at 22.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14759,6 +14744,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "AC RELAY"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -15532,6 +15526,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "LED"
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d60de423-e742-4fa0-873e-8c36e9d9dbaf")
 		)
@@ -15960,6 +15963,15 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 166.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "RST"
 			(at 166.37 29.21 0)
 			(effects
 				(font
@@ -16605,6 +16617,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "USB"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "181e66c8-6ef5-4081-81c9-89332e4d62b0")
 		)
@@ -16801,6 +16822,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 26.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "USB-C"
 			(at 26.67 158.75 0)
 			(effects
 				(font
@@ -17401,6 +17431,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "RFID"
 			(at 229.87 74.93 0)
 			(effects
 				(font
@@ -18061,6 +18100,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "BUTTON"
+			(at 148.59 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "6e222759-9a92-4481-8c69-7c730c78f0b5")
 		)
@@ -18482,6 +18530,15 @@
 		)
 		(property "Description" "Fuse"
 			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "FUSE"
+			(at 55.88 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19114,6 +19171,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "WALL IN"
+			(at 22.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "255683dc-c7e0-461f-9bd0-eb15d78dccce")
 		)
@@ -19212,6 +19278,15 @@
 					(size 1.8288 1.8288)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Label" "CURRENT MEAS"
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20349,6 +20424,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "AC/DC"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8eebd973-e403-41d4-b21f-9383930c8bcb")
 		)
@@ -20501,6 +20585,15 @@
 		)
 		(property "Description" ""
 			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "RIBBON CABLE"
+			(at 190.5 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21184,6 +21277,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 179.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "ESP 3v3"
 			(at 179.07 115.57 0)
 			(effects
 				(font
@@ -22072,6 +22174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "BUZZER"
+			(at 262.89 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9263de2f-c063-486a-a73f-7faa58ff672b")
 		)
@@ -22449,6 +22560,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Label" "PWR RELAY"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23487,6 +23607,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "PWR"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "333753a0-2e35-4579-bdb5-04f094f3adcf")
 		)
@@ -23777,6 +23906,15 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "USB-A"
+			(at 21.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "2ae17134-be8d-41b8-9086-58ad47aa47c6")
 		)
@@ -23982,6 +24120,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "USB RELAY"
 			(at 105.41 172.72 0)
 			(effects
 				(font
