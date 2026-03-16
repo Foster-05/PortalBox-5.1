@@ -7,7 +7,7 @@
 	(title_block
 		(title "PortalBox Project")
 		(date "2025-10-25")
-		(rev "V5.1.1")
+		(rev "V5.1.2")
 		(company "Bucknell University | Electrical and Computer Engineering ")
 		(comment 1 "Aiden Cherniske & Elisha Foster")
 	)
@@ -8818,7 +8818,7 @@
 		)
 		(uuid "2e5f9f51-ba4f-4d23-975f-925af2c2b879")
 	)
-	(text "Tie ground planes together\nin case of shenanigannery"
+	(text "Tie ground planes together\nin case of continued issues"
 		(exclude_from_sim no)
 		(at 278.384 57.912 0)
 		(effects
@@ -19281,7 +19281,16 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "CURRENT MEAS"
+		(property "Label" "CURRENT"
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "MEAS"
 			(at 90.17 35.56 0)
 			(effects
 				(font
@@ -20592,7 +20601,16 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "RIBBON CABLE"
+		(property "Label" "RIBBON"
+			(at 190.5 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "CABLE"
 			(at 190.5 54.61 90)
 			(effects
 				(font
@@ -22390,6 +22408,24 @@
 				(hide yes)
 			)
 		)
+		(property "Label" "JMP"
+			(at 260.35 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "GND"
+			(at 260.35 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20fd0f99-e0ba-42aa-9581-a8f3d2f4a71d")
 		)
@@ -22563,7 +22599,16 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "PWR RELAY"
+		(property "Label" "PWR"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "RELAY"
 			(at 72.39 66.04 0)
 			(effects
 				(font
@@ -24128,7 +24173,16 @@
 				(hide yes)
 			)
 		)
-		(property "Label" "USB RELAY"
+		(property "Label" "USB"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "RELAY"
 			(at 105.41 172.72 0)
 			(effects
 				(font
