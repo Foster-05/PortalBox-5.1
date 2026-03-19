@@ -10,7 +10,7 @@
 ## Background
 The Portalbox is an open-source makerspace management project. It originated at Bucknell University, in our makerspace the "Maker-E", and intends to spread worldwide, allowing makerspaces to control their equipment and their users as they see fit. The Portalbox focuses on using interlocks to control power to equipment, such as 3D printers or laser cutters, based on the RFID cards that each student possesses. I had the opportunity to work on v5 of the Portalbox over the summer of 2025, continuing into the academic year 25-26.
 
-The Portalbox has been an ongoing project for roughly a decade, remaining open-source and created by students throughout its lifetime. Professor Joe Hass and software engineer TKEgan on GitHub have historically maintained the project for both firmware and backend development, including but not limited to the database and website access that's used by student techs to change permissions to each Portalbox.
+The Portalbox has been an ongoing project for roughly a decade, remaining open-source and created by students throughout its lifetime. Professor Joe Hass and software engineer TKEgan on GitHub have historically maintained the project for both firmware and backend development, including but not limited to the database and website access that's used by student techs to change permissions to each Portalbox. Find more information about the backend at [their Github](https://github.com/Bucknell-ECE/PortalBox-ManagementPortal).
 
 <details>
 
