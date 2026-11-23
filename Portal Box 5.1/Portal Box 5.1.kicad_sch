@@ -8903,7 +8903,7 @@
 		)
 		(uuid "a344165d-204e-4dcd-9e3e-3f09efa00dab")
 	)
-	(text "Note: Recommended T1A 420-600V Fuse\nis challenging to find\nIt has been excluded \nfrom this schematic"
+	(text "F2: PS1 input fuse, T1A time-lag 250 VAC\n(250 V is enough: inlet A1 is 250 VAC)\nF1: rate for the tool, max 10 A (inlet A1)"
 		(exclude_from_sim no)
 		(at 108.458 75.438 0)
 		(effects
@@ -10092,6 +10092,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 86.36) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38534fcd-5bb1-42b2-91dc-7c245c5bf1ee")
+	)
+	(wire
+		(pts
 			(xy 180.34 168.91) (xy 180.34 166.37)
 		)
 		(stroke
@@ -10369,6 +10379,16 @@
 			(type default)
 		)
 		(uuid "543e0281-05b2-40f2-9b25-618c1563e148")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57727d07-f830-4fc4-9147-db6c05180018")
 	)
 	(wire
 		(pts
@@ -12081,7 +12101,7 @@
 		(uuid "04b3a99b-5981-4e9f-ac73-cb5738eab617")
 	)
 	(label "WALL_HOT_FUSED"
-		(at 81.28 86.36 180)
+		(at 71.12 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22066,6 +22086,83 @@
 			(project "PortalBox5"
 				(path "/ba768599-a152-4e41-90f8-f7ba0e92f17c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 76.2 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5f273a7-055e-4f4c-ba22-8b75548777c8")
+		(property "Reference" "F2"
+			(at 76.2 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T1A 250V"
+			(at 76.2 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Schurter_UMT250"
+			(at 76.2 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "FUSE"
+			(at 76.2 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a7d5c8-a28c-4e2d-aa37-ff66135735d8")
+		)
+		(pin "2"
+			(uuid "9d5cb44a-6322-4d5d-8463-d2ae5a26bf70")
+		)
+		(instances
+			(project "Portal Box 5.1"
+				(path "/ba768599-a152-4e41-90f8-f7ba0e92f17c"
+					(reference "F2")
 					(unit 1)
 				)
 			)
