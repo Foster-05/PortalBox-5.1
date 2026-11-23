@@ -3945,7 +3945,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 8.89 5.08 180)
 					(length 2.54)
 					(name "L"
@@ -3963,7 +3963,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 8.89 0 180)
 					(length 2.54)
 					(name "PE"
@@ -3981,7 +3981,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 8.89 -5.08 180)
 					(length 2.54)
 					(name "N"
@@ -4125,7 +4125,7 @@
 						(type outline)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 5.08 180)
 					(length 2.54)
 					(name "L"
@@ -4143,7 +4143,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 8.89 0 180)
 					(length 2.54)
 					(name "PE"
@@ -4161,7 +4161,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 -5.08 180)
 					(length 2.54)
 					(name "N"
@@ -4315,7 +4315,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 55.88 0 180)
 					(length 7.62)
 					(name "OUT"
@@ -4947,7 +4947,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 17.78 2.54 180)
 					(length 5.08)
 					(name "+VOUT"
@@ -4965,7 +4965,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "-VOUT"
@@ -7172,7 +7172,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -22.86 30.48 0)
 					(length 5.08)
 					(name "3V3"
@@ -7190,7 +7190,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -22.86 27.94 0)
 					(length 5.08)
 					(name "3V3."
@@ -9475,6 +9475,10 @@
 	(no_connect
 		(at 97.79 167.64)
 		(uuid "7d266c08-c96f-46ed-b11c-d985a7bca198")
+	)
+	(no_connect
+		(at 110.49 175.26)
+		(uuid "7ef185db-2359-4a69-a9c7-3429f7578146")
 	)
 	(no_connect
 		(at 236.22 161.29)
@@ -12240,16 +12244,6 @@
 		)
 		(uuid "564be297-d122-4261-af81-50028702fa03")
 	)
-	(label "RESET"
-		(at 172.72 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61c0c953-63df-4dc6-b12f-5641d3f783b3")
-	)
 	(label "GPIO38"
 		(at 236.22 138.43 180)
 		(effects
@@ -12519,16 +12513,6 @@
 			(justify right bottom)
 		)
 		(uuid "c93d9fcb-6b00-4448-8258-d12e3d14919a")
-	)
-	(label "ESP3vo"
-		(at 176.53 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6145185-87fc-4ad3-a624-28853b96ab7f")
 	)
 	(label "DO11"
 		(at 149.86 201.93 180)
