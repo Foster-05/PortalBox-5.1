@@ -19047,7 +19047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3V3")
 		(at 213.36 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19064,7 +19064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 216.916 55.88 0)
 			(effects
 				(font
@@ -19090,7 +19090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 213.36 57.15 0)
 			(effects
 				(font
