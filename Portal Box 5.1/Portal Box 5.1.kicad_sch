@@ -8943,6 +8943,12 @@
 		(uuid "027b4b0c-54c3-417e-ba81-01cb6a60a00f")
 	)
 	(junction
+		(at 57.15 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "032281eb-0cf9-493c-a94f-c4ae2152fbc6")
+	)
+	(junction
 		(at 227.33 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9015,6 +9021,12 @@
 		(uuid "1fb82b53-fee9-4c72-b77d-077d98c1104d")
 	)
 	(junction
+		(at 66.04 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d5f209-b52f-4f14-8187-2b678048ce48")
+	)
+	(junction
 		(at 212.09 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9037,12 +9049,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d01315a-7b3f-49f8-8a66-2ff631710529")
-	)
-	(junction
-		(at 57.15 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dfe92b7-632e-48b9-85a7-b30983958161")
 	)
 	(junction
 		(at 228.6 210.82)
@@ -9237,12 +9243,6 @@
 		(uuid "939c12a2-b3d8-4ae2-9b0a-fe366d59112d")
 	)
 	(junction
-		(at 48.26 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95f54cb7-8197-4266-8da4-7f566b438b5f")
-	)
-	(junction
 		(at 198.12 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9265,6 +9265,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9af2cbe-7af6-4922-a6ab-9e9ce0f894fa")
+	)
+	(junction
+		(at 57.15 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeb6e279-ef1d-4ba5-8cd2-28031fc788d4")
 	)
 	(junction
 		(at 181.61 176.53)
@@ -9622,16 +9628,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 111.76) (xy 44.45 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a86de21-1d3c-4e71-a1d3-295378db5915")
-	)
-	(wire
-		(pts
 			(xy 120.65 92.71) (xy 120.65 91.44)
 		)
 		(stroke
@@ -9699,6 +9695,16 @@
 			(type default)
 		)
 		(uuid "0ea088f5-3ca4-43c5-9db2-2086f148b233")
+	)
+	(wire
+		(pts
+			(xy 57.15 143.51) (xy 57.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc5f0d5-86b4-40ff-bb92-6e8fdfe02a94")
 	)
 	(wire
 		(pts
@@ -10332,16 +10338,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 143.51) (xy 48.26 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526737b9-1d3a-4dba-88c8-0a785fe91493")
-	)
-	(wire
-		(pts
 			(xy 212.09 64.77) (xy 217.17 64.77)
 		)
 		(stroke
@@ -10882,6 +10878,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 143.51) (xy 49.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827aa128-fef9-4b80-94f2-d10a1032d0c0")
+	)
+	(wire
+		(pts
 			(xy 228.6 204.47) (xy 228.6 210.82)
 		)
 		(stroke
@@ -10949,6 +10955,16 @@
 			(type default)
 		)
 		(uuid "871a638e-b763-46e0-976b-8f8b23d243ad")
+	)
+	(wire
+		(pts
+			(xy 57.15 143.51) (xy 59.69 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89243540-4847-44d8-bf29-23f52884eb7b")
 	)
 	(wire
 		(pts
@@ -11259,6 +11275,16 @@
 			(type default)
 		)
 		(uuid "a1d769dd-757e-4cb5-a216-b3d2ea1bf61f")
+	)
+	(wire
+		(pts
+			(xy 29.21 111.76) (xy 33.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c99d5f-7416-4c50-b649-73aa90978425")
 	)
 	(wire
 		(pts
@@ -11842,13 +11868,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 143.51) (xy 59.69 143.51)
+			(xy 40.64 111.76) (xy 44.45 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f09af645-887c-4536-a7a7-c768901c9622")
+		(uuid "f07ed2fb-db16-46a8-8899-dedb03574297")
 	)
 	(wire
 		(pts
@@ -14847,73 +14873,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14eebb35-6702-48ad-b369-e794c1e88e84")
-		(property "Reference" "#PWR038"
-			(at 57.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8e2cae3-d539-4e89-b1f6-2c0eacce4ecf")
-		)
-		(instances
-			(project "Portal Box 5.1"
-				(path "/ba768599-a152-4e41-90f8-f7ba0e92f17c"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 279.4 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15050,7 +15009,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 48.26 143.51 0)
+		(at 66.04 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15058,7 +15017,7 @@
 		(dnp no)
 		(uuid "1bcec329-e3e9-4540-8427-25ac56669490")
 		(property "Reference" "#PWR037"
-			(at 48.26 147.32 0)
+			(at 66.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15067,7 +15026,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 45.212 141.986 0)
+			(at 62.992 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +15034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 143.51 0)
+			(at 66.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15084,7 +15043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 143.51 0)
+			(at 66.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,7 +15052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 48.26 143.51 0)
+			(at 66.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +16936,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "56k"
 			(at 54.102 153.162 90)
 			(effects
 				(font
@@ -17998,7 +17957,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "56k"
 			(at 54.102 146.558 90)
 			(effects
 				(font
@@ -18409,6 +18368,83 @@
 			(project "PortalBox5"
 				(path "/ba768599-a152-4e41-90f8-f7ba0e92f17c"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 36.83 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ef2497-b075-4ef3-b220-bbcd6f617dc9")
+		(property "Reference" "F4"
+			(at 36.83 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5A PTC"
+			(at 36.83 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 36.83 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 36.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "FUSE"
+			(at 36.83 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b5698f0-3357-4d1a-b939-ce73023bd469")
+		)
+		(pin "2"
+			(uuid "f2664643-818d-4413-8b5f-a7481693183c")
+		)
+		(instances
+			(project "Portal Box 5.1"
+				(path "/ba768599-a152-4e41-90f8-f7ba0e92f17c"
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -20038,6 +20074,83 @@
 			(project "Portal Box 5.1"
 				(path "/ba768599-a152-4e41-90f8-f7ba0e92f17c"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 53.34 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b9a1fed-10ff-4a15-a06e-3763cb6c70af")
+		(property "Reference" "F3"
+			(at 53.34 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5A PTC"
+			(at 53.34 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 53.34 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 53.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "FUSE"
+			(at 53.34 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de5c6d7-cbad-4635-af1b-ea6195bb8b90")
+		)
+		(pin "2"
+			(uuid "913a84e2-2df5-4ec4-97e8-0a04480ccee8")
+		)
+		(instances
+			(project "Portal Box 5.1"
+				(path "/ba768599-a152-4e41-90f8-f7ba0e92f17c"
+					(reference "F3")
 					(unit 1)
 				)
 			)
