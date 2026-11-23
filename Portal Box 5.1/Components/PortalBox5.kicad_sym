@@ -135,7 +135,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 55.88 0 180)
 				(length 7.62)
 				(name "OUT"
@@ -2015,7 +2015,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 17.78 2.54 180)
 				(length 5.08)
 				(name "+VOUT"
@@ -2033,7 +2033,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 17.78 -2.54 180)
 				(length 5.08)
 				(name "-VOUT"
